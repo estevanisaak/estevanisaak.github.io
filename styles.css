@@ -1,0 +1,163 @@
+﻿body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+/*    background-color: #FFC72C;
+    color: #DA291C;*/
+}
+
+h1, h2 {
+    padding-left: 50px;
+}
+
+header {
+    background-color: #FFC72C;
+    margin-top: -20px;
+}
+
+header a, footer a {
+    color: #DA291C;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+header a:hover {
+    background-color: #DA291C;
+    color: #FFC72C;
+}
+
+footer {
+    background-color: #FFC72C;
+    padding: 10px;
+}
+
+.header-logo {
+    float: left;
+    height: 80px;
+    padding: 10px;
+}
+
+ul.nav li {
+    display: inline-block;
+    margin-block: 38px;
+}
+
+ul.nav-footer {
+    text-align: center;
+}
+
+ul.nav-footer li {
+    display: inline-block;
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        height: 170px;
+    }
+
+    ul.nav {
+        padding-top: 20px;
+    }
+
+    ul.nav li {
+        display: list-item;
+        padding-left: 120px;
+        padding-bottom: 10px;
+        margin-block: initial;
+    }
+}
+
+ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+div.footer {
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-block: 20px solid;
+    border-color: #DA291C;
+    background-color: #DA291C;
+    color: #FFC72C;
+}
+
+.menu-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-block: 20px solid;
+    border-color: #FFC72C;
+    background-color: #FFC72C;
+    color: #DA291C;
+    text-align: right;
+}
+
+@media screen and (max-width: 650px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu-left {
+        flex-direction: column;
+    }
+}
+
+.menu-item {
+    margin: 0px;
+    max-width: 400px;
+}
+
+.day-of-week {
+    font-size: large;
+}
+
+.description {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sandwich {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.price {
+    padding-top: 20px;
+    font-size: large;
+}
+
+th, td, table {
+    border: 1px solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table {
+    margin-inline: 50px;
+    margin-bottom: 30px;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: gray;
+}
+
+tr:hover {
+    background-color: lightgray;
+}
+
+.menu-item-image-left {
+    height: 300px;
+}
